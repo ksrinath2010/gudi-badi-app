@@ -26,8 +26,7 @@
     "files": [
       "main.js",
       "index.html",
-      "icon.png",
-      "icon.ico"
+      "icon.png"
     ],
     "win": {
       "target": [
@@ -36,7 +35,7 @@
           "arch": ["x64"]
         }
       ],
-      "icon": "icon.ico",
+      "icon": "icon.png",
       "publisherName": "Sri Pranava Peetham"
     },
     "nsis": {
@@ -45,9 +44,6 @@
       "createDesktopShortcut": true,
       "createStartMenuShortcut": true,
       "shortcutName": "Gudi Badi",
-      "installerIcon": "icon.ico",
-      "uninstallerIcon": "icon.ico",
-      "installerHeaderIcon": "icon.ico",
       "deleteAppDataOnUninstall": false
     }
   }
