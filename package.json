@@ -31,20 +31,15 @@
     "win": {
       "target": [
         {
-          "target": "nsis",
+          "target": "portable",
           "arch": ["x64"]
         }
       ],
       "icon": "icon.png",
       "publisherName": "Sri Pranava Peetham"
     },
-    "nsis": {
-      "oneClick": false,
-      "allowToChangeInstallationDirectory": true,
-      "createDesktopShortcut": true,
-      "createStartMenuShortcut": true,
-      "shortcutName": "Gudi Badi",
-      "deleteAppDataOnUninstall": false
+    "portable": {
+      "artifactName": "GudiBadi.exe"
     }
   }
 }
